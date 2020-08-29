@@ -27,7 +27,7 @@ const TabRoutes: React.FC = () => (
         tabBarIcon: ({ color }) => <Icon size={25} name="list" color={color} />,
         title: 'Listagem',
       }}
-      name="DashboardStack"
+      name="Dashboard"
       component={Dashboard}
     />
     <Tab.Screen
